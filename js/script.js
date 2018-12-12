@@ -2,13 +2,23 @@
 
 // BELOW Update the songs to your favorites songs. There should be at least 4.
 var songs = [
-    "24 Karat Magic",
-    "Nice For What",
-    "Universe"
+    "NightCore - Let Me Die",
+    "Nightcore - Welcome to My Life",
+    "Nightcore - You Don't Know",
+    "Nightcore - Baby Don't Cut",
+    "Nightcore - The Doctor Said",
+    "Nightcore - Flashlight"
 ];
 // BELOW Add 4 More arrays to store images_links, atists, song lengths, and links for each song
 // Make sure they match the same order as your array above
-
+var image_urls = [
+    ]
+var artists = [
+    ]
+var song_lengths = [
+    ]
+var links = [
+    ]
 
 
 
