@@ -84,9 +84,25 @@ function addSongInfo(){
     links.push(songLink);
 }
 
-$("#add").click(function() {
+$("#add").click(function(){
     emptySongInfo();
     addSongInfo();
     displaySongInfo();
 });
+
+$("#delete").click(function(){
+    songs.pop();
+    image_urls.pop();
+    artists.pop();
+    song_lengths.pop();
+    links.pop();
+    emptySongInfo();
+    displaySongInfo();
+});
+/*global localStorage*/
+localStorage.getItem(songs);
+localStorage.getItem(image_urls);
+localStorage.getItem(artists);
+localStorage.getItem(song_lengths);
+localStorage.getItem(links);
 displaySongInfo();

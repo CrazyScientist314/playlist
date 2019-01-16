@@ -27,7 +27,6 @@ h1 {
     font-weight: bold;
     margin: 20px;
     text-align: center;
-    vertical-align: middle;
 }
 
 #artists p {
@@ -35,7 +34,6 @@ h1 {
     height: 50px;
     margin: 20px;
     text-align: center;
-    vertical-align: middle;
 }
 
 #lengths p {
@@ -43,7 +41,6 @@ h1 {
     height: 50px;
     margin: 20px;
     text-align: center;
-    vertical-align: middle;
 }
 
 #links a {
@@ -53,7 +50,6 @@ h1 {
     font-weight: bold;
     margin: 20px;
     text-align: center;
-    vertical-align: middle;
 }
 
 #form {
